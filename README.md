@@ -105,7 +105,9 @@ Wireshark-паттерн: исходящие TCP FIN; для закрытых п
   
 - если присутствуют фильтрующие устройства — возможно ICMP unreachable → filtered
 
-  2222222222222222222222222222222
+  
+<img width="1770" height="1231" alt="13-022" src="https://github.com/user-attachments/assets/d7df8240-815a-4957-9bb2-a16d5208eb54" />
+
 
 - Xmas (Xmas-tree, -sX)
 
@@ -121,7 +123,9 @@ Wireshark-паттерн: исходящие TCP с FIN+PSH+URG; ответы а
 
 - ICMP unreachable от сетевых фильтров → filtered
 
-3333333333333333333333333333333333333
+
+<img width="1774" height="1238" alt="13-033" src="https://github.com/user-attachments/assets/7c29a3e1-004e-4d70-8d43-a48926b842d9" />
+
 
 - UDP (-sU)
 
@@ -137,7 +141,8 @@ Wireshark-паттерн: исходящие UDP-пакеты; входящие 
 
 - межсетевые фильтры часто блокируют/дропают ICMP, поэтому много портов будет классифицировано как filtered/ open|filtered.
 
-  444444444444444444444444444444444444
+
+  <img width="1779" height="1238" alt="13-044" src="https://github.com/user-attachments/assets/4f30c0f0-c3d2-4033-a401-b842a8081aff" />
 
 
   ### Выводы
@@ -172,5 +177,4 @@ Wireshark-паттерн: исходящие UDP-пакеты; входящие 
 
 Частая картина: много «no response» строк — медленная классификация.
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+
