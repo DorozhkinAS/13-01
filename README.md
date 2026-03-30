@@ -41,6 +41,18 @@
 
 ### Ответ 1
 
+список доступных сетевых служб можно видеть на 2 скринах:
+
+- мною были обнаруженны следюющие уязвимости:
+1. vsftpd 2.3.4 - Backdoor Command Execution (Metasploit)
+https://www.exploit-db.com/exploits/17491
+
+3. MySQL 5.0.x - IF Query Handling Remote Denial of Service
+https://www.exploit-db.com/exploits/30020
+
+5. Samba 3.5.0 - Remote Code Execution
+https://www.exploit-db.com/exploits/42060
+
 `Приведите ответ в свободной форме........`
 
 1. `Заполните здесь этапы выполнения, если требуется ....`
